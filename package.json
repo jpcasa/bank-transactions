@@ -1,0 +1,12 @@
+{
+  "name": "bank-transactions",
+  "private": true,
+  "packageManager": "pnpm@10.28.2",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "gen:api": "pnpm --filter web gen:api"
+  }
+}
